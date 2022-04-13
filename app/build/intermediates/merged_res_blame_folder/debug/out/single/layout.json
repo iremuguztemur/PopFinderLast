@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\header_layout.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\header_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_drawer_layout.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\nav_drawer_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_save_screen.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_save_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_saved_places.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_saved_places.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_help.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_deneme123.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\activity_deneme123.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_show_guide.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_show_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add_guide.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_add_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\items2.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\items2.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_layout.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\items.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\items.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_forget.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\activity_forget.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\place_item_layout.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\place_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row_guide.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\row_guide.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\username_dialog_layout.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\username_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\popup_view.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\popup_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_about.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_guide_fragment.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\add_guide_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_layout.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\toolbar_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    }
+]

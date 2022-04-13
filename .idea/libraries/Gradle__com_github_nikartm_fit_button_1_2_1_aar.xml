@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.nikartm:fit-button:1.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ebe1f2221c62595b87be6ace47d18fd9/transformed/jetified-fit-button-1.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ebe1f2221c62595b87be6ace47d18fd9/transformed/jetified-fit-button-1.2.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ebe1f2221c62595b87be6ace47d18fd9/transformed/jetified-fit-button-1.2.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nikartm/fit-button/1.2.1/a16c5cb2d8d84d6bb6747a63e93722da4fb90856/fit-button-1.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nikartm/fit-button/1.2.1/216fcc0ef3da7aa6e52fd876ea3ed2bcefb9ed16/fit-button-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
