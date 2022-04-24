@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\iremu\\.gradle\\caches\\transforms-3\\b6b2006c204b307b8fb953586a34cd3b\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\iremu\\.gradle\\caches\\transforms-3\\0f48201eb8de169a04948860135193b3\\transformed\\jetified-android-image-cropper-2.8.0\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

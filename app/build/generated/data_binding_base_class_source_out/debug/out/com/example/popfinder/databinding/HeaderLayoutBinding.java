@@ -4,10 +4,11 @@ package com.example.popfinder.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.RelativeLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.popfinder.R;
@@ -19,13 +20,19 @@ import java.lang.String;
 
 public final class HeaderLayoutBinding implements ViewBinding {
   @NonNull
-  private final RelativeLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final ArcView header;
 
   @NonNull
+  public final ImageView imageView;
+
+  @NonNull
   public final CircleImageView imgHeader;
+
+  @NonNull
+  public final ConstraintLayout linearLayout;
 
   @NonNull
   public final TextView txtHeaderEmail;
@@ -33,19 +40,22 @@ public final class HeaderLayoutBinding implements ViewBinding {
   @NonNull
   public final TextView txtHeaderName;
 
-  private HeaderLayoutBinding(@NonNull RelativeLayout rootView, @NonNull ArcView header,
-      @NonNull CircleImageView imgHeader, @NonNull TextView txtHeaderEmail,
+  private HeaderLayoutBinding(@NonNull ConstraintLayout rootView, @NonNull ArcView header,
+      @NonNull ImageView imageView, @NonNull CircleImageView imgHeader,
+      @NonNull ConstraintLayout linearLayout, @NonNull TextView txtHeaderEmail,
       @NonNull TextView txtHeaderName) {
     this.rootView = rootView;
     this.header = header;
+    this.imageView = imageView;
     this.imgHeader = imgHeader;
+    this.linearLayout = linearLayout;
     this.txtHeaderEmail = txtHeaderEmail;
     this.txtHeaderName = txtHeaderName;
   }
 
   @Override
   @NonNull
-  public RelativeLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -76,9 +86,21 @@ public final class HeaderLayoutBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
+        break missingId;
+      }
+
       id = R.id.imgHeader;
       CircleImageView imgHeader = ViewBindings.findChildViewById(rootView, id);
       if (imgHeader == null) {
+        break missingId;
+      }
+
+      id = R.id.linearLayout;
+      ConstraintLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout == null) {
         break missingId;
       }
 
@@ -94,8 +116,8 @@ public final class HeaderLayoutBinding implements ViewBinding {
         break missingId;
       }
 
-      return new HeaderLayoutBinding((RelativeLayout) rootView, header, imgHeader, txtHeaderEmail,
-          txtHeaderName);
+      return new HeaderLayoutBinding((ConstraintLayout) rootView, header, imageView, imgHeader,
+          linearLayout, txtHeaderEmail, txtHeaderName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

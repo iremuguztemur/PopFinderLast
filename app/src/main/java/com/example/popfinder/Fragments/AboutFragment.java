@@ -21,7 +21,7 @@ public class AboutFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding = FragmentHelpBinding.inflate(inflater,container,false);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Hakkımızda");
+       // ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Hakkımızda");
 
         return binding.getRoot();
     }

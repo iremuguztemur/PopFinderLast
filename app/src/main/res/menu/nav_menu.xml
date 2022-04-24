@@ -28,11 +28,7 @@
                     android:title="Add Guide"
                     />
 
-                <item
-                    android:id="@+id/btn_veri_gonder"
-                    android:icon="@drawable/ic_edit"
-                    android:title="veri gonder"
-                    />
+
             </menu>
         </item>
 

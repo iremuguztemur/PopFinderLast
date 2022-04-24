@@ -6,22 +6,27 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.popfinder.R;
+import com.google.android.material.textfield.TextInputLayout;
+import de.hdodenhof.circleimageview.CircleImageView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class FragmentAddGuideBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button btnSave;
+
+  @NonNull
+  public final CircleImageView imgPickPP;
 
   @NonNull
   public final EditText location;
@@ -32,18 +37,33 @@ public final class FragmentAddGuideBinding implements ViewBinding {
   @NonNull
   public final EditText phone;
 
-  private FragmentAddGuideBinding(@NonNull ScrollView rootView, @NonNull Button btnSave,
-      @NonNull EditText location, @NonNull EditText name, @NonNull EditText phone) {
+  @NonNull
+  public final TextInputLayout textInputLayout;
+
+  @NonNull
+  public final TextInputLayout textInputLayout2;
+
+  @NonNull
+  public final TextInputLayout textInputLayout3;
+
+  private FragmentAddGuideBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnSave,
+      @NonNull CircleImageView imgPickPP, @NonNull EditText location, @NonNull EditText name,
+      @NonNull EditText phone, @NonNull TextInputLayout textInputLayout,
+      @NonNull TextInputLayout textInputLayout2, @NonNull TextInputLayout textInputLayout3) {
     this.rootView = rootView;
     this.btnSave = btnSave;
+    this.imgPickPP = imgPickPP;
     this.location = location;
     this.name = name;
     this.phone = phone;
+    this.textInputLayout = textInputLayout;
+    this.textInputLayout2 = textInputLayout2;
+    this.textInputLayout3 = textInputLayout3;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -74,6 +94,12 @@ public final class FragmentAddGuideBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imgPickPP;
+      CircleImageView imgPickPP = ViewBindings.findChildViewById(rootView, id);
+      if (imgPickPP == null) {
+        break missingId;
+      }
+
       id = R.id.location;
       EditText location = ViewBindings.findChildViewById(rootView, id);
       if (location == null) {
@@ -92,7 +118,26 @@ public final class FragmentAddGuideBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentAddGuideBinding((ScrollView) rootView, btnSave, location, name, phone);
+      id = R.id.textInputLayout;
+      TextInputLayout textInputLayout = ViewBindings.findChildViewById(rootView, id);
+      if (textInputLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.textInputLayout2;
+      TextInputLayout textInputLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (textInputLayout2 == null) {
+        break missingId;
+      }
+
+      id = R.id.textInputLayout3;
+      TextInputLayout textInputLayout3 = ViewBindings.findChildViewById(rootView, id);
+      if (textInputLayout3 == null) {
+        break missingId;
+      }
+
+      return new FragmentAddGuideBinding((ConstraintLayout) rootView, btnSave, imgPickPP, location,
+          name, phone, textInputLayout, textInputLayout2, textInputLayout3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

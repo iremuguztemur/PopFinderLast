@@ -59,7 +59,9 @@ public class LoginActivity extends AppCompatActivity {
 
                     } else {
 
-                        firebaseAuth.getCurrentUser().sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                        firebaseAuth.getCurrentUser()
+                                .sendEmailVerification()
+                                .addOnCompleteListener(new OnCompleteListener<Void>() {
                             @Override
                             public void onComplete(@NonNull Task<Void> email) {
                                 if (email.isSuccessful()) {
@@ -98,7 +100,7 @@ public class LoginActivity extends AppCompatActivity {
             binding.edtPassword.setError("Field is required");
             flag = true;
             requestView = binding.edtPassword;
-        } else if (password.length() < 8) {
+        } else if (password.length() < 6) {
             binding.edtPassword.setError("Minimum 8 characters");
             flag = true;
             requestView = binding.edtPassword;

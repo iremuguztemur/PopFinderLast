@@ -2,9 +2,14 @@
   <library name="Gradle: com.firebaseui:firebase-ui-firestore:3.3.1@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9e996f5d7c14ac3275ed3dec05a84b3a/transformed/jetified-firebase-ui-firestore-3.3.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/51a0a98962a8ef703f5b593eb6dd2d1b/transformed/jetified-firebase-ui-firestore-3.3.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/51a0a98962a8ef703f5b593eb6dd2d1b/transformed/jetified-firebase-ui-firestore-3.3.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/51a0a98962a8ef703f5b593eb6dd2d1b/transformed/jetified-firebase-ui-firestore-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b9ac363531eca48c0fa81cb019990f29/transformed/jetified-firebase-ui-firestore-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/724ea0802ab5c839c215cb5cd0af87ec/transformed/jetified-firebase-ui-firestore-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d3126fe0f67109a0f1a17109748a641/transformed/jetified-firebase-ui-firestore-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/82b0ea738d0d57c533689bf4c2f92a89/transformed/jetified-firebase-ui-firestore-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3af6da9ffdc006d8db358ace90403c34/transformed/jetified-firebase-ui-firestore-3.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d3126fe0f67109a0f1a17109748a641/transformed/jetified-firebase-ui-firestore-3.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1d3126fe0f67109a0f1a17109748a641/transformed/jetified-firebase-ui-firestore-3.3.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-firestore/3.3.1/e3d4021b924f204e2e22c6d56ea7eab77f9daaed/firebase-ui-firestore-3.3.1-javadoc.jar!/" />

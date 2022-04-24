@@ -2,9 +2,14 @@
   <library name="Gradle: com.firebaseui:firebase-ui-database:7.1.1@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/018fa314318ebed75c29d7225fb7372c/transformed/jetified-firebase-ui-database-7.1.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/60a1affd97789ba09553deca917ee583/transformed/jetified-firebase-ui-database-7.1.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/60a1affd97789ba09553deca917ee583/transformed/jetified-firebase-ui-database-7.1.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/60a1affd97789ba09553deca917ee583/transformed/jetified-firebase-ui-database-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/838afb0f08e6d3e9e77210139a6af79d/transformed/jetified-firebase-ui-database-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d4d3e88ea71dd7d7ff264b686201e1a0/transformed/jetified-firebase-ui-database-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f862acc867e6e4b222769a3ffbe68758/transformed/jetified-firebase-ui-database-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/775ce9278a58210c8ef396d2fccd8803/transformed/jetified-firebase-ui-database-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ec6f09492797d05a0ebab91881d9850e/transformed/jetified-firebase-ui-database-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f862acc867e6e4b222769a3ffbe68758/transformed/jetified-firebase-ui-database-7.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f862acc867e6e4b222769a3ffbe68758/transformed/jetified-firebase-ui-database-7.1.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-database/7.1.1/54dbed2826fa8a80785b95dd20cb12f81b991159/firebase-ui-database-7.1.1-javadoc.jar!/" />

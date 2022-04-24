@@ -219,7 +219,7 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback, Google
 
         SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager ().findFragmentById ( R.id.homeMap );
 
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Anasayfa");
+       // ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Anasayfa");
 
         assert mapFragment != null;
         mapFragment.getMapAsync ( this   );

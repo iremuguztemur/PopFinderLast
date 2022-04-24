@@ -69,7 +69,7 @@ public class ShowGuide extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         binding = FragmentShowGuideBinding.inflate(inflater, container, false);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Turist Rehberi Görüntüle");
+        //((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Turist Rehberi Görüntüle");
 
         recyclerView = binding.recyclerView;
         btnAdd = binding.btnAdd;
@@ -110,8 +110,10 @@ public class ShowGuide extends Fragment {
             }
         });
 
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false);
-        RecyclerView.ItemDecoration decoration = new DividerItemDecoration(requireContext(), DividerItemDecoration.VERTICAL);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(requireContext(),
+                LinearLayoutManager.VERTICAL, false);
+        RecyclerView.ItemDecoration decoration = new DividerItemDecoration(requireContext(),
+                DividerItemDecoration.VERTICAL);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.addItemDecoration(decoration);
         recyclerView.setAdapter(guideAdapter);
@@ -145,7 +147,12 @@ public class ShowGuide extends Fragment {
                         if (task.isSuccessful()) {
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 if (document.getBoolean("isActive")){
-                                    AddGuideModel guide = new AddGuideModel(document.getString("location"), document.getString("name"), document.getString("phone"));
+                                    AddGuideModel guide = new AddGuideModel(
+                                            document.getString("location"),
+                                            document.getString("name"),
+                                            document.getString("phone"),
+                                            document.getString("profile_photo"));
+
                                     guide.setId(document.getId());
                                     list.add(guide);
                                 }

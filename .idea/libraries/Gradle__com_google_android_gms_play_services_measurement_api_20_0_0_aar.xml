@@ -2,9 +2,14 @@
   <library name="Gradle: com.google.android.gms:play-services-measurement-api:20.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0ef913d10470ceaf4bc18c2c16721b45/transformed/jetified-play-services-measurement-api-20.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e68300f6d178dafb4587c40afa090b0c/transformed/jetified-play-services-measurement-api-20.0.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e68300f6d178dafb4587c40afa090b0c/transformed/jetified-play-services-measurement-api-20.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e68300f6d178dafb4587c40afa090b0c/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4fdedb3fefe13354f69a63de6749768a/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/da47b595c93d007b9c6d83410b903a22/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d1d55485c0b6498cbcea15980569924f/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/22d65dd3b192e3ca51909fd1e0e5ee41/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/63a1437c835c03ec0cc26100f5a313a4/transformed/jetified-play-services-measurement-api-20.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d1d55485c0b6498cbcea15980569924f/transformed/jetified-play-services-measurement-api-20.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d1d55485c0b6498cbcea15980569924f/transformed/jetified-play-services-measurement-api-20.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-measurement-api/20.0.0/d9fa6f35328a64f32f2606643124f206db82aa35/play-services-measurement-api-20.0.0-javadoc.jar!/" />

@@ -2,9 +2,14 @@
   <library name="Gradle: com.firebaseui:firebase-ui-common:7.1.1@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/86739bfea76b34bf263d6f843c759cae/transformed/jetified-firebase-ui-common-7.1.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f0daf93b4cb40d5b704df63f45945806/transformed/jetified-firebase-ui-common-7.1.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0daf93b4cb40d5b704df63f45945806/transformed/jetified-firebase-ui-common-7.1.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f0daf93b4cb40d5b704df63f45945806/transformed/jetified-firebase-ui-common-7.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a19a9168b34123ee762840a657e3974a/transformed/jetified-firebase-ui-common-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/117f5185eadb0c4a50b5fa3658f0fdce/transformed/jetified-firebase-ui-common-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/be60ad09caa5f16648c55359af65a323/transformed/jetified-firebase-ui-common-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cad430378058a4c92088f2ce5cc6cdaf/transformed/jetified-firebase-ui-common-7.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9ff9b6750ab39a6d15bbdf6625c0527c/transformed/jetified-firebase-ui-common-7.1.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/be60ad09caa5f16648c55359af65a323/transformed/jetified-firebase-ui-common-7.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/be60ad09caa5f16648c55359af65a323/transformed/jetified-firebase-ui-common-7.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.firebaseui/firebase-ui-common/7.1.1/bcb16e7aacc6b3613494796961ab20b91b199bbf/firebase-ui-common-7.1.1-javadoc.jar!/" />

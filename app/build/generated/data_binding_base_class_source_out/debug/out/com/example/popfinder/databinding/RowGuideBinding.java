@@ -4,9 +4,11 @@ package com.example.popfinder.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -20,6 +22,9 @@ public final class RowGuideBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final CardView cardView;
+
+  @NonNull
   public final TextView guideLocation;
 
   @NonNull
@@ -28,12 +33,18 @@ public final class RowGuideBinding implements ViewBinding {
   @NonNull
   public final TextView guidePhone;
 
-  private RowGuideBinding(@NonNull ConstraintLayout rootView, @NonNull TextView guideLocation,
-      @NonNull TextView guideName, @NonNull TextView guidePhone) {
+  @NonNull
+  public final ImageView imgPp;
+
+  private RowGuideBinding(@NonNull ConstraintLayout rootView, @NonNull CardView cardView,
+      @NonNull TextView guideLocation, @NonNull TextView guideName, @NonNull TextView guidePhone,
+      @NonNull ImageView imgPp) {
     this.rootView = rootView;
+    this.cardView = cardView;
     this.guideLocation = guideLocation;
     this.guideName = guideName;
     this.guidePhone = guidePhone;
+    this.imgPp = imgPp;
   }
 
   @Override
@@ -63,6 +74,12 @@ public final class RowGuideBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cardView;
+      CardView cardView = ViewBindings.findChildViewById(rootView, id);
+      if (cardView == null) {
+        break missingId;
+      }
+
       id = R.id.guide_location;
       TextView guideLocation = ViewBindings.findChildViewById(rootView, id);
       if (guideLocation == null) {
@@ -81,7 +98,14 @@ public final class RowGuideBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RowGuideBinding((ConstraintLayout) rootView, guideLocation, guideName, guidePhone);
+      id = R.id.img_pp;
+      ImageView imgPp = ViewBindings.findChildViewById(rootView, id);
+      if (imgPp == null) {
+        break missingId;
+      }
+
+      return new RowGuideBinding((ConstraintLayout) rootView, cardView, guideLocation, guideName,
+          guidePhone, imgPp);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

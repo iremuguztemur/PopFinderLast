@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -32,6 +33,12 @@ public final class FragmentSettingsBinding implements ViewBinding {
   public final CardView cardPassword;
 
   @NonNull
+  public final RelativeLayout changePassword;
+
+  @NonNull
+  public final RelativeLayout emailChance;
+
+  @NonNull
   public final ImageView imgCamera;
 
   @NonNull
@@ -50,13 +57,16 @@ public final class FragmentSettingsBinding implements ViewBinding {
   public final TextView txtUsername;
 
   private FragmentSettingsBinding(@NonNull LinearLayout rootView, @NonNull CardView cardEmail,
-      @NonNull CardView cardLogout, @NonNull CardView cardPassword, @NonNull ImageView imgCamera,
-      @NonNull CircleImageView imgProfile, @NonNull TextView phone, @NonNull TextView txtEEmail,
-      @NonNull TextView txtEmail, @NonNull TextView txtUsername) {
+      @NonNull CardView cardLogout, @NonNull CardView cardPassword,
+      @NonNull RelativeLayout changePassword, @NonNull RelativeLayout emailChance,
+      @NonNull ImageView imgCamera, @NonNull CircleImageView imgProfile, @NonNull TextView phone,
+      @NonNull TextView txtEEmail, @NonNull TextView txtEmail, @NonNull TextView txtUsername) {
     this.rootView = rootView;
     this.cardEmail = cardEmail;
     this.cardLogout = cardLogout;
     this.cardPassword = cardPassword;
+    this.changePassword = changePassword;
+    this.emailChance = emailChance;
     this.imgCamera = imgCamera;
     this.imgProfile = imgProfile;
     this.phone = phone;
@@ -110,6 +120,18 @@ public final class FragmentSettingsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.changePassword;
+      RelativeLayout changePassword = ViewBindings.findChildViewById(rootView, id);
+      if (changePassword == null) {
+        break missingId;
+      }
+
+      id = R.id.emailChance;
+      RelativeLayout emailChance = ViewBindings.findChildViewById(rootView, id);
+      if (emailChance == null) {
+        break missingId;
+      }
+
       id = R.id.imgCamera;
       ImageView imgCamera = ViewBindings.findChildViewById(rootView, id);
       if (imgCamera == null) {
@@ -147,7 +169,8 @@ public final class FragmentSettingsBinding implements ViewBinding {
       }
 
       return new FragmentSettingsBinding((LinearLayout) rootView, cardEmail, cardLogout,
-          cardPassword, imgCamera, imgProfile, phone, txtEEmail, txtEmail, txtUsername);
+          cardPassword, changePassword, emailChance, imgCamera, imgProfile, phone, txtEEmail,
+          txtEmail, txtUsername);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

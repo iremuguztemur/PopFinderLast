@@ -2,9 +2,14 @@
   <library name="Gradle: com.google.firebase:firebase-storage:20.0.1@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ab97d5cf1ec7cb29b93572eae76d79f6/transformed/jetified-firebase-storage-20.0.1/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cf65673b46c379871465f90f6429ccaf/transformed/jetified-firebase-storage-20.0.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cf65673b46c379871465f90f6429ccaf/transformed/jetified-firebase-storage-20.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cf65673b46c379871465f90f6429ccaf/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/48b6d2fcf200ee18fc0ac1c4526e4695/transformed/jetified-firebase-storage-20.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/facc577d27c3211f1ae2cb45e34f7b3c/transformed/jetified-firebase-storage-20.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a68d5b43390ac9b6311413dcfb5ea872/transformed/jetified-firebase-storage-20.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c7ffd26add603cb1f76c46b2f75af384/transformed/jetified-firebase-storage-20.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5b21a31a345d7d77d12428cf40333636/transformed/jetified-firebase-storage-20.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a68d5b43390ac9b6311413dcfb5ea872/transformed/jetified-firebase-storage-20.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a68d5b43390ac9b6311413dcfb5ea872/transformed/jetified-firebase-storage-20.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-storage/20.0.1/2e66e2f28eb6e473520d2e64a44b503f01f73c1f/firebase-storage-20.0.1-javadoc.jar!/" />
