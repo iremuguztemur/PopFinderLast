@@ -76,6 +76,10 @@
         "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\place_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_about1.xml",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_about1.xml"
+    },
+    {
         "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_to_google_map.xml",
         "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_to_google_map.xml"
     },

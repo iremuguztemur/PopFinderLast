@@ -332,6 +332,10 @@
         "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\drawable-xxhdpi\\ic_lock.xml"
     },
     {
+        "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_about1.xml.flat",
+        "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\layout\\fragment_about1.xml"
+    },
+    {
         "merged": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_pharmacy.xml.flat",
         "source": "C:\\Users\\iremu\\Downloads\\popfinder-FinalProject-master\\app\\src\\main\\res\\drawable\\ic_pharmacy.xml"
     },

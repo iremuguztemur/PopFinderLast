@@ -3205,6 +3205,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id about1Fragment
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3306,7 +3307,6 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btnAbout
 id btnAddGuide
 id btnBack
 id btnFacebook
@@ -3329,7 +3329,6 @@ id btnUpdateEmail
 id btnUpdatePassword
 id btn_add
 id btn_save
-id btn_veri_gonder
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3339,6 +3338,8 @@ id cardEmail
 id cardLogout
 id cardPassword
 id cardView
+id cardView2
+id cardView3
 id cardview
 id carryVelocity
 id center
@@ -3346,6 +3347,9 @@ id centerCrop
 id centerInside
 id center_horizontal
 id center_vertical
+id cevap
+id cevap2
+id cevap3
 id chain
 id chain2
 id chains
@@ -3478,6 +3482,7 @@ id guide_location
 id guide_name
 id guide_phone
 id guideline
+id hakkimizda
 id header
 id header_title
 id hideable
@@ -3733,6 +3738,9 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id soru
+id soru2
+id soru3
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -3976,6 +3984,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_layout
 layout fragment_about
+layout fragment_about1
 layout fragment_add_guide
 layout fragment_add_help
 layout fragment_email_change

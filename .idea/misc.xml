@@ -78,13 +78,16 @@
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/activity_sign_up.xml" value="0.146875" />
+        <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/add_guide_fragment.xml" value="0.25" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/change_email_dialog.xml" value="0.21197916666666666" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/change_password_dialog.xml" value="0.18" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/dialog_layout.xml" value="0.2" />
-        <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/fragment_about.xml" value="0.12" />
+        <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/fragment_about.xml" value="0.23346303501945526" />
+        <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/fragment_about1.xml" value="0.2" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/fragment_add_guide.xml" value="0.2" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/fragment_add_help.xml" value="0.2" />
+        <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/fragment_blank.xml" value="0.2" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/fragment_email_change.xml" value="0.18" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/fragment_email_confirmation.xml" value="0.22" />
         <entry key="..\:/Users/iremu/Downloads/popfinder-FinalProject-master/app/src/main/res/layout/fragment_firestore_deneme.xml" value="0.2" />

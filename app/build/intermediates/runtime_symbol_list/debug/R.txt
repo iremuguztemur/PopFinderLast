@@ -3204,6 +3204,7 @@ int id SHOW_PROGRESS 0x7f0a000d
 int id SYM 0x7f0a000e
 int id TOP_END 0x7f0a000f
 int id TOP_START 0x7f0a0010
+int id about1Fragment 0x7f0a02a6
 int id accelerate 0x7f0a0011
 int id accessibility_action_clickable_span 0x7f0a0012
 int id accessibility_custom_action_0 0x7f0a0013
@@ -3305,7 +3306,6 @@ int id browser_actions_menu_item_icon 0x7f0a0072
 int id browser_actions_menu_item_text 0x7f0a0073
 int id browser_actions_menu_items 0x7f0a0074
 int id browser_actions_menu_view 0x7f0a0075
-int id btnAbout 0x7f0a0076
 int id btnAddGuide 0x7f0a0077
 int id btnBack 0x7f0a0078
 int id btnFacebook 0x7f0a007a
@@ -3328,7 +3328,6 @@ int id btnUpdateEmail 0x7f0a008a
 int id btnUpdatePassword 0x7f0a008b
 int id btn_add 0x7f0a008c
 int id btn_save 0x7f0a008d
-int id btn_veri_gonder 0x7f0a008e
 int id buttonPanel 0x7f0a008f
 int id cache_measures 0x7f0a0090
 int id callMeasure 0x7f0a0091
@@ -3338,6 +3337,8 @@ int id cardEmail 0x7f0a0094
 int id cardLogout 0x7f0a0095
 int id cardPassword 0x7f0a0096
 int id cardView 0x7f0a0097
+int id cardView2 0x7f0a02a7
+int id cardView3 0x7f0a02a8
 int id cardview 0x7f0a0098
 int id carryVelocity 0x7f0a0099
 int id center 0x7f0a009a
@@ -3345,6 +3346,9 @@ int id centerCrop 0x7f0a009b
 int id centerInside 0x7f0a009c
 int id center_horizontal 0x7f0a009d
 int id center_vertical 0x7f0a009e
+int id cevap 0x7f0a029e
+int id cevap2 0x7f0a029f
+int id cevap3 0x7f0a02a0
 int id chain 0x7f0a009f
 int id chain2 0x7f0a00a0
 int id chains 0x7f0a00a1
@@ -3477,6 +3481,7 @@ int id guide_location 0x7f0a011d
 int id guide_name 0x7f0a011e
 int id guide_phone 0x7f0a011f
 int id guideline 0x7f0a0120
+int id hakkimizda 0x7f0a02a1
 int id header 0x7f0a0121
 int id header_title 0x7f0a0122
 int id hideable 0x7f0a0123
@@ -3732,6 +3737,9 @@ int id snackbar_action 0x7f0a021b
 int id snackbar_text 0x7f0a021c
 int id snap 0x7f0a021d
 int id snapMargins 0x7f0a021e
+int id soru 0x7f0a02a2
+int id soru2 0x7f0a02a3
+int id soru3 0x7f0a02a4
 int id south 0x7f0a021f
 int id spacer 0x7f0a0220
 int id special_effects_controller_view_tag 0x7f0a0221
@@ -3975,6 +3983,7 @@ int layout design_text_input_end_icon 0x7f0d0038
 int layout design_text_input_start_icon 0x7f0d0039
 int layout dialog_layout 0x7f0d003a
 int layout fragment_about 0x7f0d003b
+int layout fragment_about1 0x7f0d00ae
 int layout fragment_add_guide 0x7f0d003c
 int layout fragment_add_help 0x7f0d003d
 int layout fragment_email_change 0x7f0d003e

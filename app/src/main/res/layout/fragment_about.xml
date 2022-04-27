@@ -1,14 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Fragments.AboutFragment">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="16dp"
+    android:background="@drawable/forget_background"
+    tools:context=".Fragments.AboutFragment"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/hakkimizda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/poppins"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:text="HAKKIMIZDA"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/soru"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/playfair_display"
+            android:padding="5dp"
+            android:text="Tur Rehberi Ne Demek?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hakkimizda" />
+
+        <TextView
+            android:id="@+id/cevap"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins"
+            android:padding="5dp"
+            android:text="Tur rehberi; seyahat organizasyonlarında gidilecek gezi alanı ile ilgili tura katılanlara eşlik edip, onlara doğru bilgi vermekle yükümlü olan kişiye verilen isimdir. Turist rehberi olarak da bilinir. Uzun ya da kısa yolculuklarda tura katılanlara eşlik eder.
+
+"
+            android:textStyle="bold|italic"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/soru"
+            app:layout_constraintTop_toBottomOf="@id/soru" />
+
+        <TextView
+            android:id="@+id/soru2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/playfair_display"
+            android:padding="5dp"
+            android:text="Safranbolu Tur Rehberlerimiz Ne İş Yapar? Görev ve Sorumlulukları Nelerdir?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cevap" />
+
+        <TextView
+            android:id="@+id/cevap2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins"
+            android:padding="5dp"
+            android:text="Otogarda, havaalanında ya da tur acente şirketlerinin önünde tura katılacak misafirleri karşılamak,
+Hazırlanan seyahat dokümanlarını misafirlere iletmek,
+Uçağın ya da tur otobüsünün kalkış saati, biniş kapısı gibi detaylarını misafirlerle paylaşmak,
+Seyahat aracı uçaksa check-in işlemlerinde misafirlere aracılık etmek,
+Misafirlerin tur araçlarına binip binmediğini kontrol etmek ve sayım yapmak,
+Seyahat sırasında mümkün olduğu kadar turdan ayrılmadan hareket etmek,
+İlk intiba önemli olduğundan misafirlerle iyi iletişim kurmak,
+Gidilecek şehir, ülke ile ilgili misafirlere tanıtıcı bilgiler vermek,
+Tur bitiminde misafirlerin kendi istekleri doğrultusunda gezmeleri için onlara zaman vermek.
+"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/soru2"
+            app:layout_constraintTop_toBottomOf="@id/soru2" />
+
+        <TextView
+            android:id="@+id/soru3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/playfair_display"
+            android:padding="5dp"
+            android:text="Tur Rehberi Nasıl Olunur?"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cevap2" />
+
+        <TextView
+            android:id="@+id/cevap3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins"
+            android:padding="5dp"
+            android:text="Tur rehberi olabilmek için üniversitelerin Turizm Rehberliği veya Turist Rehberliği bölümlerinden mezun olunmalıdır. Ayrıca başta İngilizce olmak üzere yabancı dillere ihtiyaç duyulacağı için dil eğitimi de alınmalıdır.
+            Uygulamıza turist rehberi olarak kaydolmak istediğiniz takdirde iletişim sağlanmaktadır."
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/soru3"
+            app:layout_constraintTop_toBottomOf="@id/soru3" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

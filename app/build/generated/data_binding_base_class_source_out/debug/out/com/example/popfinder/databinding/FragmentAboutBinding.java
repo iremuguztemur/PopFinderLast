@@ -4,25 +4,58 @@ package com.example.popfinder.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.popfinder.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentAboutBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final CardView rootView;
 
-  private FragmentAboutBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final TextView cevap;
+
+  @NonNull
+  public final TextView cevap2;
+
+  @NonNull
+  public final TextView cevap3;
+
+  @NonNull
+  public final TextView hakkimizda;
+
+  @NonNull
+  public final TextView soru;
+
+  @NonNull
+  public final TextView soru2;
+
+  @NonNull
+  public final TextView soru3;
+
+  private FragmentAboutBinding(@NonNull CardView rootView, @NonNull TextView cevap,
+      @NonNull TextView cevap2, @NonNull TextView cevap3, @NonNull TextView hakkimizda,
+      @NonNull TextView soru, @NonNull TextView soru2, @NonNull TextView soru3) {
     this.rootView = rootView;
+    this.cevap = cevap;
+    this.cevap2 = cevap2;
+    this.cevap3 = cevap3;
+    this.hakkimizda = hakkimizda;
+    this.soru = soru;
+    this.soru2 = soru2;
+    this.soru3 = soru3;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public CardView getRoot() {
     return rootView;
   }
 
@@ -43,10 +76,56 @@ public final class FragmentAboutBinding implements ViewBinding {
 
   @NonNull
   public static FragmentAboutBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.cevap;
+      TextView cevap = ViewBindings.findChildViewById(rootView, id);
+      if (cevap == null) {
+        break missingId;
+      }
 
-    return new FragmentAboutBinding((FrameLayout) rootView);
+      id = R.id.cevap2;
+      TextView cevap2 = ViewBindings.findChildViewById(rootView, id);
+      if (cevap2 == null) {
+        break missingId;
+      }
+
+      id = R.id.cevap3;
+      TextView cevap3 = ViewBindings.findChildViewById(rootView, id);
+      if (cevap3 == null) {
+        break missingId;
+      }
+
+      id = R.id.hakkimizda;
+      TextView hakkimizda = ViewBindings.findChildViewById(rootView, id);
+      if (hakkimizda == null) {
+        break missingId;
+      }
+
+      id = R.id.soru;
+      TextView soru = ViewBindings.findChildViewById(rootView, id);
+      if (soru == null) {
+        break missingId;
+      }
+
+      id = R.id.soru2;
+      TextView soru2 = ViewBindings.findChildViewById(rootView, id);
+      if (soru2 == null) {
+        break missingId;
+      }
+
+      id = R.id.soru3;
+      TextView soru3 = ViewBindings.findChildViewById(rootView, id);
+      if (soru3 == null) {
+        break missingId;
+      }
+
+      return new FragmentAboutBinding((CardView) rootView, cevap, cevap2, cevap3, hakkimizda, soru,
+          soru2, soru3);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

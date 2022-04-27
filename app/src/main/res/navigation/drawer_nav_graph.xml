@@ -40,19 +40,11 @@
         android:name="com.example.popfinder.Fragments.HelpFragment"
         android:label="fragment_help"
         tools:layout="@layout/fragment_help" />
-
     <fragment
-        android:id="@+id/btnAbout"
-        android:name="com.example.popfinder.Fragments.AboutFragment"
-        android:label="fragment_about"
-        tools:layout="@layout/fragment_about" />
-
-      <activity
-          android:id="@+id/btn_veri_gonder"
-          android:name="com.example.popfinder.deneme123"
-          android:label="activity_deneme123"
-          tools:layout="@layout/activity_deneme123" />
-
+        android:id="@+id/about1Fragment"
+        android:name="com.example.popfinder.Fragments.About1Fragment"
+        android:label="fragment_about1"
+        tools:layout="@layout/fragment_about1" />
 
 
 </navigation>
